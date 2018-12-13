@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "382190370597",
+    "firebase_url": "https://mocilebank.firebaseio.com",
+    "project_id": "mocilebank",
+    "storage_bucket": "mocilebank.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:382190370597:android:edf577c55a0c4aba",
+        "android_client_info": {
+          "package_name": "com.sheinthuaung.transcation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "382190370597-f7qdri0m88gijejbbh9s1ll697s354up.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC93iTxn-EcBiDP1B-OvPVSo-bTKq2CLoo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

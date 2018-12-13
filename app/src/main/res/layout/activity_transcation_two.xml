@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dddfde"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    tools:context=".TranscationOneActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="13dp"
+        android:paddingRight="13dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="The target Account:"
+            android:textColor="#2a5b96"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/account_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textbox_bg"
+            android:ems="10"
+            android:hint="xxxx-xxxx-xxxx-xxxx"
+            android:inputType="text"
+            android:padding="11dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Transcation ammount($):"
+                android:textColor="#2a5b96"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/ammount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#7b7171"
+                android:text="1,000"
+                android:textSize="18sp"
+                android:padding="11dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Transcation Date (dd/mm/yy):"
+            android:textColor="#2a5b96"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#7b7171"
+            android:text="08/08/2018"
+            android:textSize="18sp"
+            android:padding="11dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TAX ($):"
+                android:textColor="#2a5b96"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#7b7171"
+                android:text="1.04"
+                android:textSize="18sp"
+                android:padding="11dp" />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/button_bg"
+            android:padding="11dp"
+            android:text="Continue"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:onClick="toSuccess"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/bg"
+            android:orientation="vertical"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity=""
+                android:text="2018 Mobile Banking Coompaeration"
+                android:textAlignment="center"
+                android:textColor="#b6b0b0" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="All right reserverd"
+                android:textAlignment="center"
+                android:textColor="#b6b0b0" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

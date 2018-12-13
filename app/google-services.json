@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "135649078680",
+    "firebase_url": "https://transcation-234f9.firebaseio.com",
+    "project_id": "transcation-234f9",
+    "storage_bucket": "transcation-234f9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:135649078680:android:edf577c55a0c4aba",
+        "android_client_info": {
+          "package_name": "com.sheinthuaung.transcation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "135649078680-83r7r070gpfge7e0r9vbjpquj9lpa8cq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sheinthuaung.transcation",
+            "certificate_hash": "5523fe4680e33f162b58f3dae7c26e2e83fdabdf"
+          }
+        },
+        {
+          "client_id": "135649078680-08f8jorhdh7g4v90pg0a365locd8fp7e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvTHHl65E2pxilfy3Ha71A6tPKOVKc1Do"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "135649078680-08f8jorhdh7g4v90pg0a365locd8fp7e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
