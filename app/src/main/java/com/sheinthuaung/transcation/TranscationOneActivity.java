@@ -9,15 +9,17 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toolbar;
 
-public class TranscationOneActivity extends AppCompatActivity {
+import com.google.firebase.analytics.FirebaseAnalytics;
 
+public class TranscationOneActivity extends AppCompatActivity {
+    private FirebaseAnalytics mFirebaseAnalytics;
     @TargetApi(Build.VERSION_CODES.LOLLIPOP)
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_transcation_one);
-
+        mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
