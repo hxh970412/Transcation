@@ -25,11 +25,12 @@
             android:textSize="18sp" />
 
         <EditText
-            android:id="@+id/account_no"
+            android:id="@+id/account_no1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/textbox_bg"
             android:ems="10"
+            android:maxLength="11"
             android:hint="xxxx-xxxx-xxxx-xxxx"
             android:inputType="text"
             android:padding="11dp" />
@@ -59,14 +60,6 @@
 
         </LinearLayout>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="30dp"
-            android:text="Transcation Date (dd/mm/yy):"
-            android:textColor="#2a5b96"
-            android:textSize="18sp" />
-
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -74,34 +67,6 @@
             android:layout_marginTop="10dp"
             android:orientation="horizontal">
 
-            <EditText
-                android:id="@+id/day"
-                android:layout_width="80dp"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="10dp"
-                android:background="@drawable/textbox_bg"
-                android:ems="10"
-                android:inputType="text"
-                android:padding="11dp" />
-
-            <EditText
-                android:id="@+id/month"
-                android:layout_width="80dp"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="10dp"
-                android:background="@drawable/textbox_bg"
-                android:ems="10"
-                android:inputType="text"
-                android:padding="11dp" />
-
-            <EditText
-                android:id="@+id/year"
-                android:layout_width="80dp"
-                android:layout_height="wrap_content"
-                android:background="@drawable/textbox_bg"
-                android:ems="10"
-                android:inputType="text"
-                android:padding="11dp" />
         </LinearLayout>
 
         <LinearLayout
@@ -129,6 +94,7 @@
         </LinearLayout>
 
         <Button
+            android:id="@+id/toSend"
             android:layout_width="130dp"
             android:layout_height="wrap_content"
             android:layout_gravity="end"
@@ -137,8 +103,7 @@
             android:padding="11dp"
             android:text="Proceed"
             android:textColor="#fff"
-            android:textStyle="bold"
-            android:onClick="toSecond"/>
+            android:textStyle="bold" />
     </LinearLayout>
 
     <RelativeLayout

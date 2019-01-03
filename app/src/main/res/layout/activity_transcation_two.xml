@@ -24,13 +24,12 @@
             android:textColor="#2a5b96"
             android:textSize="18sp" />
 
-        <EditText
-            android:id="@+id/account_no"
+        <TextView
+            android:id="@+id/account_no2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/textbox_bg"
             android:ems="10"
-            android:hint="xxxx-xxxx-xxxx-xxxx"
             android:inputType="text"
             android:padding="11dp" />
 
@@ -48,7 +47,7 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/ammount"
+                android:id="@+id/ammount2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="#7b7171"
@@ -58,56 +57,25 @@
 
         </LinearLayout>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="30dp"
-            android:text="Transcation Date (dd/mm/yy):"
-            android:textColor="#2a5b96"
-            android:textSize="18sp" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="#7b7171"
-            android:text="08/08/2018"
-            android:textSize="18sp"
-            android:padding="11dp" />
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="40dp"
             android:orientation="horizontal">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="TAX ($):"
-                android:textColor="#2a5b96"
-                android:textSize="18sp" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textColor="#7b7171"
-                android:text="1.04"
-                android:textSize="18sp"
-                android:padding="11dp" />
-
         </LinearLayout>
 
         <Button
+            android:id="@+id/Continue"
             android:layout_width="130dp"
             android:layout_height="wrap_content"
             android:layout_gravity="end"
             android:layout_marginTop="40dp"
             android:background="@drawable/button_bg"
             android:padding="11dp"
-            android:text="Continue"
+            android:text="continue"
             android:textColor="#fff"
-            android:textStyle="bold"
-            android:onClick="toSuccess"/>
+            android:textStyle="bold" />
     </LinearLayout>
 
     <RelativeLayout

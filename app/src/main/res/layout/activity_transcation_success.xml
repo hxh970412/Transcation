@@ -27,22 +27,39 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Transaction success"
-                android:textAlignment="center"
-                android:textColor="#000"
-                android:textSize="25sp"
                 android:paddingTop="30dp"
                 android:paddingBottom="30dp"
-                />
+                android:text="Transaction Success"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="25sp" />
         </LinearLayout>
-        <TextView
-            android:layout_width="match_parent"
+        <LinearLayout
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Transaction number: 56GB81H8468TY5"
-            android:textAlignment="center"
-            android:textColor="#000"
-            android:textSize="18sp"
-            />
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Transaction number:"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:id="@+id/randomTran"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="XXXXXXXXXXXXXXX"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="18sp"
+                />
+
+        </LinearLayout>
+
         <Button
             android:layout_width="130dp"
             android:layout_height="wrap_content"
