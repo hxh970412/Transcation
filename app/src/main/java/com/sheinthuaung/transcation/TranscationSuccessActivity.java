@@ -87,7 +87,7 @@ public class TranscationSuccessActivity extends AppCompatActivity {
 
         String id = tranNum;
 
-        transhist transhist = new transhist(transBa, fromAcc, toAcc, id);
+        transhist transhist = new transhist(transBa, fromAcc, id, toAcc);
 
         databaseAccount.child(id).setValue(transhist);
     }
